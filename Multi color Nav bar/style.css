@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color:rgb(40, 40, 124);
+    --color2:brown;
+    --color3:pink;
+}
+ nav ul{
+    display: flex;
+    background-color: var(--color);
+    text-align: center;
+    color: var(--color3);
+}
+li{
+    list-style: none;
+    padding: 20px;
+
+}
