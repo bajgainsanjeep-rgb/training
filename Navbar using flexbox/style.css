@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul{ 
+    display: flex;
+    list-style: none;
+    flex-grow: 1 5 1;
+    border: 2px solid black;
+border-radius:  5px;
+/* gap: 250px; */
+justify-content: space-between;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+.right{
+    display: flex;
+    justify-content:right ;
+    gap: 10px;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.right button{
+    background-color: rgb(235, 235, 42);
+color: black;
+text-align: center;
+width: 80px;
+height: 30px;
+}
+
+
